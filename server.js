@@ -1,11 +1,10 @@
 const path = require('path');
-const browserSync = require('browser-sync');
 const webpack = require('webpack');
 const config = require('./webpack.config');
-const compiler = webpack(config);
 const express = require('express');
 
 const app = express();
+const compiler = webpack(config);
 
 const options = {
   quiet: false,
