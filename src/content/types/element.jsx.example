@@ -1,0 +1,11 @@
+[object Object] {
+  $$typeof: [object Symbol] { ... },
+  _owner: null,
+    _store: [object Object] { ... },
+  key: null,
+    props: [object Object] {
+    name: "world"
+  },
+  ref: null,
+    type: "h1"
+}

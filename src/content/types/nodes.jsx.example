@@ -1,0 +1,7 @@
+type ReactFragment = Array<ReactNode | ReactEmpty>;
+
+type ReactNodeList = ReactNode | ReactEmpty;
+
+type ReactText = string | number;
+
+type ReactEmpty = null | undefined | boolean;

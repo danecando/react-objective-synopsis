@@ -1,0 +1,15 @@
+var JSX = (
+  <header className="header">
+    <h1 id="logo" className="header__logo" data-linkTo="home">JSX is KEWL</h1>
+    <nav className="header-nav">
+      <ul className="header-nav__items">
+        <li className="header-nav__item">
+          <a href="/home">Home</a>
+        </li>
+        <li className="header-nav__item">
+          <a href="/contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+);

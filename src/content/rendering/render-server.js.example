@@ -1,0 +1,3 @@
+import ReactDOMServer from 'react-dom/server';
+
+ReactDOMServer.renderToStaticMarkup(React.createElement(<HelloReact name="world" />));

@@ -1,0 +1,12 @@
+
+var Container = React.createClass({
+  render: function() {
+    return (
+      <div className="container">
+        <HelloReact name={this.state.name} />
+        <input type="text" name="name" value={this.state.name}
+               onChange={this.handleChange} />
+      </div>
+    );
+  }
+});

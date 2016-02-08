@@ -1,0 +1,21 @@
+// Stateless function component
+function HelloReact(props) {
+  return <h1>Hello, {this.props.name}</h1>;
+}
+
+// ES2015 arrow function style
+var HelloReact = props => <h1>Hello, {this.props.name}</h1>;
+
+// Stateful (Controller-view) component
+var Page = React.createClass({
+  getInitialState: function() {
+    this.setState({ title: 'Coming soon', name: 'world' });
+  },
+  render: function() {
+    return (
+      <div className="page">
+        <HelloReact name={this.state.name} />
+      </div>
+    );
+  }
+});

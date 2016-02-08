@@ -1,0 +1,28 @@
+var PostsArchive = React.createClass({
+  getInitialState: function() {
+    return {
+      posts: []
+    };
+  },
+  componentDidMount: function() {
+    var self = this;
+    fetch('/posts.json')
+      .then(function(posts) {
+        self.setState({
+          posts: posts
+        });
+      });
+  },
+  render: function() {
+    var posts = this.state.posts;
+    return (
+      <PostsContainer>
+      {
+        posts.map(function(post) {
+          return <SinglePost post={post} />
+        })
+      }
+      </PostsContainer>
+    )
+  }
+});

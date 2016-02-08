@@ -1,0 +1,13 @@
+// ClickCount uses the methods mixed in from CounterMixin
+var ClickCount = React.createClass({
+  mixins: [CounterMixin],
+  render() {
+    return (
+      <div id="click-count">
+        <h2 className="count-num">{this.state.count}</h2>
+        <button id="decrement" className="btn" onClick={this.decrementCount}>Decrement</button>
+        <button id="increment" className="btn" onClick={this.incrementCount}>Increment</button>
+      </div>
+    );
+  }
+});

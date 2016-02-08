@@ -1,0 +1,17 @@
+// This is an example how you would use ES2016 decorators (a simpler syntax then the var ClickCounter = withCounter(ClickCount) below)
+// @withCounter
+class ClickCount extends React.Component {
+  render() {
+    // Instead of using state with a regular mixin we use the props passed in from the wrapping component
+    return (
+      <div id="click-count">
+        <h2 className="count-num">{this.props.count}</h2>
+        <button id="decrement" className="btn" onClick={this.props.decrementCount}>Decrement</button>
+        <button id="increment" className="btn" onClick={this.props.incrementCount}>Increment</button>
+      </div>
+    );
+  }
+}
+
+// withCounter returns our 'enhanced' component
+const ClickCounter = withCounter(ClickCount);

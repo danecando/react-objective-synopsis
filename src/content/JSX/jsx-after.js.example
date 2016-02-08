@@ -1,0 +1,35 @@
+var JSX = React.createElement(
+  "header",
+  { className: "header" },
+  React.createElement(
+    "h1",
+    { id: "logo", className: "header__logo", "data-linkTo": "home" },
+    "JSX is KEWL"
+  ),
+  React.createElement(
+    "nav",
+    { className: "header-nav" },
+    React.createElement(
+      "ul",
+      { className: "header-nav__items" },
+      React.createElement(
+        "li",
+        { className: "header-nav__item" },
+        React.createElement(
+          "a",
+          { href: "/home" },
+          "Home"
+        )
+      ),
+      React.createElement(
+        "li",
+        { className: "header-nav__item" },
+        React.createElement(
+          "a",
+          { href: "/contact" },
+          "Contact"
+        )
+      )
+    )
+  )
+);

@@ -1,0 +1,6 @@
+var HelloReact = React.createClass({
+  render: function() {
+    return <h1>Hello, {this.props.name}.</h1>;
+  }
+});
+var helloReact = new HelloReact({ name: 'world' });

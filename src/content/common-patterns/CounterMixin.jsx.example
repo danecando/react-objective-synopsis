@@ -1,0 +1,18 @@
+// Counter functionality as a mixin
+var CounterMixin = {
+  getInitialState() {
+    return {
+      count: 0
+    };
+  },
+  incrementCount() {
+    this.setState({
+      count: this.state.count + 1
+    });
+  },
+  decrementCount() {
+    this.setState({
+      count: this.state.count - 1
+    });
+  }
+};

@@ -1,0 +1,8 @@
+**/public/*
+**/node_modules/*
+**/server.js
+**/webpack.config.js
+**/webpack.config.production.js
+**/preprocessor.js
+**/dist/*
+**/*.example

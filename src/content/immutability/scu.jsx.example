@@ -1,0 +1,8 @@
+var HelloReact = React.createClass({
+  shouldComponentUpdate: function(nextProps, nextState) {
+    return this.props.name !== nextProps.name;
+  },
+  render: function() {
+    return <h1>Hello, {this.props.name}.</h1>;
+  }
+});
