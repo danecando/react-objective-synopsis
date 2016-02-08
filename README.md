@@ -17,6 +17,6 @@ https://facebook.github.io/fixed-data-table/
 * shouldComponentUpdate [http://jsbin.com/zoyolutabu/1/edit?html,js,output]
 
 ### Demos
-http://khan.github.io/perseus/
-https://github.com/ryanflorence/reactconf-2015-HYPE
-http://chenglou.me/react-lights-out/
+* http://khan.github.io/perseus/
+* https://github.com/ryanflorence/reactconf-2015-HYPE
+* http://chenglou.me/react-lights-out/
