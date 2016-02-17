@@ -1,0 +1,9 @@
+.idea
+node_modules
+.env
+*.log
+.trash
+logs
+dist
+*.md
+!README.md
