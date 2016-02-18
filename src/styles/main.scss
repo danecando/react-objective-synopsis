@@ -85,8 +85,13 @@ img {
 }
 
 .spectacle-content {
-  max-height: 20000px !important;
+  max-height: 5000px !important;
   max-width: 1200px !important;
+  overflow-y: scroll;
+  margin: auto !important;
+}
+
+.spectacle-slide {
   overflow-y: scroll;
 }
 
