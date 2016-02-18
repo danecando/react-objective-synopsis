@@ -516,12 +516,12 @@ img {
 .spectacle-content {
   max-height: 5000px !important;
   max-width: 1200px !important;
-  overflow-y: scroll;
+  overflow-y: scroll !important;
   margin: auto !important;
 }
 
 .spectacle-slide {
-  overflow-y: scroll;
+  overflow-y: scroll !important;
 }
 
 .spectacle-presenter-notes {
